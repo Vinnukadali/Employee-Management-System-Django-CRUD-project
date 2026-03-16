@@ -1,0 +1,71 @@
+# Employee Management System (Django CRUD)
+
+A simple Employee Management System built using Django.
+This project demonstrates basic CRUD operations (Create, Read, Update, Delete) for managing employee records.
+
+## Features
+
+* Add new employee
+* View employee list
+* Update employee details
+* Delete employee
+* Simple UI using HTML and CSS
+
+## Technologies Used
+
+* Python
+* Django
+* HTML
+* CSS
+* SQLite Database
+
+## Project Structure
+
+```
+employee_project/
+│
+├── employee_app/
+│   ├── models.py
+│   ├── views.py
+│   ├── forms.py
+│   ├── urls.py
+│
+├── templates/
+│   ├── base.html
+│   ├── list.html
+│   ├── create.html
+│   ├── update.html
+│
+├── manage.py
+└── db.sqlite3
+```
+
+## How to Run the Project
+
+1. Clone the repository
+
+```
+git clone https://github.com/vinnukadali/employee-management-system.git
+```
+
+2. Navigate to the project folder
+
+```
+cd employee-management-system
+```
+
+3. Run the server
+
+```
+python manage.py runserver
+```
+
+4. Open in browser
+
+```
+http://127.0.0.1:8000/
+```
+
+## Author
+
+Vinnu
